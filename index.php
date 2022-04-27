@@ -12,7 +12,7 @@
     }
 
     body {
-      background-image: url("https://raw.githubusercontent.com/pradeepvarma-S/BuildingBlockDemo/main/download.png");
+      background-image: url("https://raw.githubusercontent.com/hashicorp/learn-terramino/master/background.png");
       display: flex;
       align-items: center;
       justify-content: center;
@@ -195,7 +195,7 @@
       context.font = "36px monospace";
       context.textAlign = "center";
       context.textBaseline = "middle";
-      context.fillText("Thanks for joining us on 16.2 (FWB Devops!)", canvas.width / 2, canvas.height / 2);
+      context.fillText("Game over! ", canvas.width / 2, canvas.height / 2);
     }
 
     const canvas = document.getElementById("game");
