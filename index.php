@@ -12,7 +12,7 @@
     }
 
     body {
-      background-image: url("https://github.com/hashicorp/learn-terramino/raw/master/background.png");
+      background-image: url("https://raw.githubusercontent.com/pradeepvarma-S/BuildingBlockDemo/main/download.png");
       display: flex;
       align-items: center;
       justify-content: center;
