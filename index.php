@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Terramino</title>
+  <title>Financial Wellbeing Devops</title>
   <link rel="icon" href="https://www.terraform.io/favicon.ico" type="image/x-icon" />
   <style>
     html,
@@ -60,7 +60,7 @@
 <body>
   <div class="container">
     <div class="content">
-      <h1>Terramino</h1>
+      <h1>Financial Wellbeing Devops</h1>
       <p><span class="attribute-name">AMI ID:</span><code><?php echo $ami_id; ?></code></p>
       <p><span class="attribute-name">Instance ID:</span><code><?php echo $instance_id; ?></code></p>
       <p><span class="attribute-name">Availability Zones:</span><code><?php echo $zone; ?></code></p>
@@ -195,7 +195,7 @@
       context.font = "36px monospace";
       context.textAlign = "center";
       context.textBaseline = "middle";
-      context.fillText("GAME OVER!", canvas.width / 2, canvas.height / 2);
+      context.fillText("Thanks for joining us on 16.2 (FWB Devops!)", canvas.width / 2, canvas.height / 2);
     }
 
     const canvas = document.getElementById("game");
