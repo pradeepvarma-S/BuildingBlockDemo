@@ -69,7 +69,7 @@
       <p>Use left and right arrow keys to move blocks.<br />Use up arrow key to flip block.</p>
     </div>
     <div class="content">
-      <canvas width="320" height="640" id="game"></canvas>
+      <canvas width="320" height="600" id="game"></canvas>
     </div>
   </div>
 
