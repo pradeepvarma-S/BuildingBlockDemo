@@ -12,7 +12,7 @@
     }
 
     body {
-      background-image: url("https://raw.githubusercontent.com/hashicorp/learn-terramino/master/background.png");
+      background-image: url("https://raw.githubusercontent.com/pradeepvarma-S/BuildingBlockDemo/main/FWB.PNG");
       display: flex;
       align-items: center;
       justify-content: center;
@@ -61,9 +61,6 @@
   <div class="container">
     <div class="content">
       <h1>Financial Wellbeing Devops</h1>
-      <p><span class="attribute-name">AMI ID:</span><code><?php echo $ami_id; ?></code></p>
-      <p><span class="attribute-name">Instance ID:</span><code><?php echo $instance_id; ?></code></p>
-      <p><span class="attribute-name">Availability Zones:</span><code><?php echo $zone; ?></code></p>
       <p>Use left and right arrow keys to move blocks.<br />Use up arrow key to flip block.</p>
     </div>
     <div class="content">
