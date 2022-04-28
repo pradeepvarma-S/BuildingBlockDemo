@@ -64,7 +64,6 @@
 <body>
   <div class="container">
     <div class="content">
-      <h1>Financial Wellbeing Devops</h1>
       <p>Use left and right arrow keys to move blocks.<br />Use up arrow key to flip block.</p>
     </div>
     <div class="content">
