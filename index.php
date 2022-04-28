@@ -7,7 +7,7 @@
   <style>
     html,
     body {
-      height: 80%;
+      height: 125%;
       margin: 0;
     }
 
@@ -17,10 +17,11 @@
       display: flex;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-clip: content-box;
+      background-clip: padding-box;
+      background-color: black;
       align-items: center;
       justify-content: center;
-      color: black;
+      color: white;
       font-family: Arial, Helvetica, sans-serif
     }
 
@@ -39,6 +40,7 @@
 
     .content {
       position: relative;
+      text-align: center;
       left: 0;
       top: 0;
     }
@@ -265,7 +267,7 @@
       // draw the active tetromino
       if (tetromino) {
         // tetromino falls every 35 frames
-        if (++count > 5) {
+        if (++count > 15) {
           tetromino.row++;
           count = 0;
 
