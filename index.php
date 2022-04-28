@@ -69,7 +69,7 @@
       <p>Use left and right arrow keys to move blocks.<br />Use up arrow key to flip block.</p>
     </div>
     <div class="content">
-      <canvas width="320" height="600" id="game"></canvas>
+      <canvas width="320" height="640" id="game"></canvas>
     </div>
   </div>
 
@@ -210,7 +210,7 @@
     const playfield = [];
 
     // populate the empty state
-    for (let row = -2; row < 20; row++) {
+    for (let row = -2; row < 18; row++) {
       playfield[row] = [];
 
       for (let col = 0; col < 10; col++) {
