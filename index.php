@@ -7,7 +7,7 @@
   <style>
     html,
     body {
-      height: 125%;
+      height: 100%;
       margin: 0;
     }
 
@@ -31,6 +31,7 @@
 
     canvas {
       border: 1px solid white;
+      display: flex;
     }
 
     .container {
