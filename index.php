@@ -13,7 +13,10 @@
 
     body {
       background-image: url("https://raw.githubusercontent.com/pradeepvarma-S/BuildingBlockDemo/main/FWB.PNG");
-      display: compact;
+      display: flex;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-clip: content-box;
       align-items: center;
       justify-content: center;
       color: white;
