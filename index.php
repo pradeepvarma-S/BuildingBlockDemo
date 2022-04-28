@@ -262,7 +262,7 @@
       // draw the active tetromino
       if (tetromino) {
         // tetromino falls every 35 frames
-        if (++count > 35) {
+        if (++count > 70) {
           tetromino.row++;
           count = 0;
 
